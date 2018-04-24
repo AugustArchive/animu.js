@@ -1,0 +1,20 @@
+{
+    "name": "animu.js",
+    "description": "An anime API wrapper.",
+    "version": "0.0.1",
+    "dependencies": {
+        "snekfetch": "3.6.4"
+    },
+    "author": "August (Chris)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ohlookitsAugust/animu.js/issues"
+    },
+    "scripts": {
+        "test": "cd examples && node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ohlookitsAugust/animu.js"
+    }
+}
