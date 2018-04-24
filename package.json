@@ -1,7 +1,7 @@
 {
     "name": "animu.js",
     "description": "An anime API wrapper.",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "dependencies": {
         "snekfetch": "3.6.4"
     },
