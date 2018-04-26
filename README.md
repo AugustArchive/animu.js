@@ -19,7 +19,7 @@ client.getHentai().then((body) => {
 const { CFClient } = require('animu.js');
 const client = new CFClient('animu.js/Production/v0.0.1');
 
-client.getAnime().then((b) => {
+client.getAnimu().then((b) => {
     console.log(`Here is your animu: ${b.url}`);
 });
 client.getHentai().then((body) => {
@@ -29,4 +29,7 @@ client.getHentai().then((body) => {
 
 ## Releases
 * v0.0.1 => Initial Release
-* v0.0.2 => `animu.js#getHentai` function
+* v0.0.2 =>
+    * `CFClient#getHentai` function;
+    * Fixed entry point after installing;
+    * If no User Agent, uses the default `animu.js ({GITHUB} v0.0.2)`
