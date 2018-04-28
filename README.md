@@ -1,7 +1,7 @@
 # animu.js
 animu.js is a Node.js wrapper for my friend [CF](https://computerfreaker.cf)'s Anime API.
 
-## API
+## Examples
 `Without User-Agent`:
 ```js
 const { CFClient } = require('animu.js');
