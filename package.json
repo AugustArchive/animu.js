@@ -1,0 +1,9 @@
+{
+    "name": "animu.js",
+    "description": "animu.js is an API Wrapper that handles requests to CF's API~",
+    "version": "0.1.0",
+    "dependencies": {
+        "snekfetch": "4.0.4"
+    },
+    "main": "./lib/index.js"
+}
